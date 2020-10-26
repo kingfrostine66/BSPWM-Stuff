@@ -4,25 +4,20 @@
 
 # terminal emulator
 super + Return
-	urxvt
+	konsole
 
 # web browser
 super + F2
-	qutebrowser
+	google-chrome
 
 # file manager
 super + F3
-	pcmanfm
+	dolphin
 
 # music
 super + F4
 	spotify
 
-
-
-# program launcher
-super + d
-	rofi -modi drun,run -show drun -theme ~/.cache/wal/colors-rofi-dark -location 1 -xoffset 36
 
 # make sxhkd reload its configuration files:
 super + Escape
